@@ -1,0 +1,126 @@
+body{
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, sans-serif;
+	color:#666666;
+	margin:auto;
+	text-align: center;
+	width:auto;
+}
+header{
+	background-color:#FFFFFF;
+	color:#FFFFFF;
+	line-height: 200%;;
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 60px;
+	margin-bottom: 0;
+	display: inline-block;
+	width:auto;
+}
+main{
+	max-width: auto;
+	text-align: left;
+	padding-left: 20px;
+	display:inline-block;
+	background-color: #F5F5DC;
+	text-align:center;
+}
+h1{
+	text-align: center;
+}
+p{
+	max-width: 80%;
+}
+nav{
+	font-weight: bold;
+	padding: auto;
+	width:cover;
+	background-color: #D2691E;
+	height:41px;
+}
+nav a{
+	text-decoration:none;
+}
+nav a: link{
+	color:#000033;
+}
+nav a: visited{
+	color:#344873;
+}
+nav a: hover{
+	color:#ffffff;
+}
+nav a: active{
+	color:#000000;
+}
+
+nav ul{
+text-align: center;
+}
+nav li{
+	display:inline-block;
+	background-color: #F5F5DC;
+	padding: 2px 2px;
+	border-radius: 60px;
+}
+nav li: hover{
+	background-color: #F5F5F5 
+}
+class="img-fluid"{
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+header img{
+margin:0 auto;
+display: block;
+}
+.logo{
+	margin:0 auto;
+	display: block;
+}
+#homehero{
+	background-image: url(images/lucy.jpg);
+	height: 300px;
+	width:300px;
+	background size:background-size:100%100%;
+	background-repeat:no-repeat;
+	margin:auto;
+	padding:auto;
+}
+footer{
+margin-bottom: 0px;
+}
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size:1.5em;
+		padding:0.3em;
+		height:100%;
+		font-weight:bold;
+	}
+	h3{
+		font-size:1em;
+		padding:0.3em;
+		height:100%;
+		font-weight:bold;
+	}
+	h4{
+		font-size:0.7em;
+		padding:0.3em;
+		height:100%;
+		font-weight:bold;
+	}
+	p{
+		font-size:.8em;
+	}
+	li{
+		font-size:.8em;
+	}
+	main{
+		padding:0.1em 0.6em 0.1em 0.4em;
+	}
+	footer{
+		padding:0;
+	}
+
